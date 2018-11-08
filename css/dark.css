@@ -2,19 +2,19 @@
 
 canvas{
   border: 1px solid black;
-  width: 200px;
-  height: 500px;
+  width: 500px;
+  height: 1000px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .highlighted {
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 
 .lensEqual canvas {
   filter: invert(100%);
 }
 .lensQ canvas {
-  filter: brightness(125%);
+  filter: brightness(50%);
 }
 
 .lensW canvas {
@@ -46,7 +46,7 @@ canvas{
 
 .lens {
   color: blue;
-  border: 1px solid white; 
+  border: 1px solid white;
 }
 
 .modifiers {
@@ -63,7 +63,6 @@ canvas{
 .blank {
   color: violet;
 }
-
 
 
 .hidden {
@@ -88,11 +87,13 @@ canvas{
   color: blue;
 }
 
- 
-
 .center {
-  vertical-align: center;
+  margin-left: 40%;
 }
 .center:hover {
   color: purple
+}
+
+#choiceContainer {
+
 }

@@ -1,6 +1,6 @@
 var run = Pts.quickStart("#pt", "white");
 (function () {
-  
+
   const stories = {
     //if picked all A side
     Welcome1A: "Pick Kenneth: He is born to be the great ruler and protector of Epicodus. Picking the good side could prevent the prophecy to happen. Tragic adventure awaits for this young man.",
@@ -33,7 +33,8 @@ var run = Pts.quickStart("#pt", "white");
     //if picked B side
     Welcome1B: "Pick Ethan: He is an adopted son and came from poor family. He has a strong hatred for Epicodus for not being able to help the poor. He wants to take upon revenge and destroy Epicodus.",
     Chapter1B: "The prophecy was called 'Bruhh-kery', where it will bring chaos, famine, disease, and unknown terrors to Epicodus.  They’ve been expecting this to come on the right time. Ethan was also chosen to fulfill the said prophecy, and it blessed him a special power. Choose below:",
-    Chapter1B2C: "Chainsmoke: exhales a powerful poisoned fume that causes fatal damage", //choices
+    Chapter1B2C: "Chainsmoke: exhales a powerful poisoned fume that causes fatal damage",
+    Chapter1B2D: "Git-Clone-no-jutsu: can multiply himself many times", //choices
     Chapter2CNarrate: "21 Years have passed and Ethan's hatred grew and became a strong malevolent person. He became stronger when he discovered that he can maximize his power by absorbing people’s energy.",
     Chapter2C: "Ethan made a strategic plan on bringing down Epicodus. He thought of poisoning all people in Epicodus so they can feel the pain and the suffering especially for those rich people that never helped the poor, he disgusts them a lot and does not pity nor mercy",
     Chapter3B: "Bring chaos to Epicodus",
@@ -43,7 +44,6 @@ var run = Pts.quickStart("#pt", "white");
     //Chapter5BNarrate and Chapter5B goes here
 
     //if 5C chosen
-    Chapter5C1: "Ethan succeeded on bringing down the castle with the help of AJ. When he tried to kill the King, he had a confession that shocked him. Dudu told Ethan that he was the long lost brother of Kenneth. He also had the same forsaken love with a villager. They had a kid before getting forced to marry Julie. They gave fruit to a boy named, Ethan and had to keep memories in private. Dudu feared that he will get overthrown if Amkhokar knows the illegal situation. He casted out his fellow lover away from Epicodus along with Ethan. She later soon died of cancer, which causing Ethan to be adopted by the Foster’s home. Confused and shocked on what he heard. He used all his power to kill the King. The queen intervene but it was already too late. Aj quick enough to grab the queen and struck her between the chest. Before he kills her, AJ hesitated and made her a hostage. Meanwhile, Ethan is almost close to fulfilling the prophecy. And also making Samantha a hostage in current situation.",
     Chapter5C2: "Kenneth is pretty much hopeless, ran out of options to fight. Kenneth, seeing his mom and lover at the same time held hostage is too much sacrifice for him. He knows he cannot save both. Ethan said 'AJ, I have been with you since day one. I will make you my right hand after you finish off Kenneth.'. Aj had flashbacks of his childhood. He has a trauma of being lied to. When he was a kid, he had a best-friend named, Kavod. Him and Kavod have been close friends, for AJ they were. Kavod is a trickster. He likes to make his friends his ‘slave’ by commanding them to do such acts with a promise equivalent to something they would agree to. AJ thought of being controlled like a puppet, like before. He flashes in a speed of light by the maximizing oxygen and bursting it out. He instantly stabbed Ethan’s heart. Ethan then shocked on what just happened. Kenneth found this a perfect opening to protect the Queen and his lover. He used his final maximized power onto AJ.",
     Chapter5C3: "Aj got wiped and the prophecy has been broken. Kenneth successfully protected all his loved ones along the entire Epicodus. Ethan failed unexpectedly, he opened his eyes looks around and found out that Ethan said 'I overslept! I should’ve not watched Fifty Shades 1 and 2 sequel!!' Ethan looks for his phone and message his close friend. To: Kenneth message: 'BRO, SIGN ME IN!'"
 
@@ -101,7 +101,7 @@ var run = Pts.quickStart("#pt", "white");
       form.fill("rgba(0,0,0, .3)").points(ins1, 10, "square");
     });
   }
-  
+
   pick2A = function () {
 
     currentText = stories.Chapter2A;
@@ -153,7 +153,7 @@ var run = Pts.quickStart("#pt", "white");
     });
   }
   pick4A = function () {
-    currentText = stories.Chapter3B;
+    currentText = stories.Chapter4Aß;
     $('#3A-4A').hide();
     $('#3A-4B').hide();
     $('#4A-5A').show();
@@ -193,7 +193,7 @@ var run = Pts.quickStart("#pt", "white");
     $('#4A-5A').hide();
     $('#5B').show();
   }
-  
+
 
 
 
