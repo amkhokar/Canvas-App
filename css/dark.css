@@ -1,0 +1,98 @@
+
+
+canvas{
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.highlighted {
+  border: 1px solid black; 
+}
+
+.lensEqual canvas {
+  filter: invert(100%);
+}
+.lensQ canvas {
+  filter: brightness(125%);
+}
+
+.lensW canvas {
+  filter: grayscale(100%);
+}
+
+.lensE canvas {
+  filter: sepia(50%);
+}
+
+.eraser canvas {
+  filter: contrast(0%);
+}
+
+#navContainer {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  opacity: 0.9;
+}
+
+.smallWriting {
+  font-size: 10px;
+  text-align: center;
+}
+.btn {
+  font-size: 20px;
+}
+
+.lens {
+  color: blue;
+  border: 1px solid white; 
+}
+
+.modifiers {
+  color: orange;
+}
+.paused {
+  color: red;
+  border: 1px solid red;
+}
+.unpaused {
+  color: green;
+}
+
+.blank {
+  color: violet;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.right {
+  overflow-wrap: break-word;
+  margin-right: 10%;
+  float: right;
+}
+.right:hover {
+  color: orange;
+}
+
+.left {
+  overflow-wrap: break-word;
+  margin-left: 10%;
+  float: left;
+}
+.left:hover {
+  color: blue;
+}
+
+ 
+
+.center {
+  vertical-align: center;
+}
+.center:hover {
+  color: purple
+}

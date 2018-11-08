@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="css/light.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/pts/dist/pts.min.js"></script>
+  <title>Group Project 4</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="navContainer">
+      <h5 id="narrator" style="padding: 1em"></h3>
+      <button id="12" class="btn paused" type="button">S<br>Done</button>
+      <button id="1" class="btn" type="button"><span class="smallWriting">Chg Color</span><br>1</button>
+      <button id="2" class="btn" type="button"><span class="smallWriting">Grow</span><br>2</button>
+      <button id="3" class="btn" type="button"><span class="smallWriting">Shrink</span><br>3</button>
+      <button id="4" class="btn" type="button"><span class="smallWriting">Shape</span><br>4</button>
+      <button id="5" class="btn" type="button"><span class="smallWriting">5</span><br>TEXT</button>
+
+      <button id="6" class="btn" type="button"><span class="smallWriting">6</span><br>SOUND</button>
+
+      <button id="7" class="btn" type="button"><span class="smallWriting">7</span><br>SOUND</button>
+      <button id="8" class="btn" type="button"><span class="smallWriting">8</span><br>SOUND</button>
+      <button id="9" class="btn modifiers" type="button"><span class="smallWriting">9</span><br>REF</button>
+      <button id="10" class="btn modifiers" VALUE="Refresh"><span class="smallWriting">0</span><br>1X1<br></button>
+      <button id="17" class="btn modifiers" type="button"><span class="smallWriting">R</span><br>Thru</button>
+      <button id="11" class="btn lens blank" type="button"><span class="smallWriting">-</span><br>Blank<br></button>
+      <button id="13" class="btn lens" type="button"><span class="smallWriting">=</span><br>Invert</button>
+      <button id="14" class="btn lens" type="button"><span class="smallWriting">Q</span><br>Light</button>
+      <button id="15" class="btn lens" type="button"><span class="smallWriting">W</span><br>Gray</button>
+      <button id="16" class="btn lens" type="button"><span class="smallWriting">E</span><br>Sepia</button>
+      <button id="18" class="btn" type="button"><span class="smallWriting">B</span><br>Clear</button>
+      <button id="17" class="btn" type="button"></button>
+    </div>
+    <script type="text/javascript" src="js/light.js"></script>
+  </div>
+  <div id="choiceContainer">
+    <button id="1A-2A" type="button" class="btn left" onClick="pick2A()">LoudMouth: chant cursed words that whoever hears it becomes petrified.</button>
+    <button id="1A-2B" type="button" class="btn right" onClick="pick2B()">CopyPaste: perfect copy of anything he sees</button>
+    <button id="2A-3A" class="btn hidden center" type="button" onClick="pick3A()">He visited the Great Temple of Boujee and trained</button>
+    <button id="2B-3A" class="btn hidden center" type="button" onClick="pick3A()">He visited the Great Temple of Boujee and trained</button>
+    <button id="3A-4A" class="btn hidden left" type="button" onClick="pick4A()">Bring out the Romance!</button>
+    <button id="3A-4B" class="btn hidden right" type="button" onClick="pick4B()">Fight alone</button>
+    <button id="4A-5A" class="btn hidden left" type="button" onClick="pick5A()">Escape reality and live on your freewill</button>
+    <button id="4A-5B" class="btn hidden center" type="button" onClick="pick5B()">Fight and be a Hero</button>
+    <button id="4B-5B" class="btn hidden center" type="button" onClick="pick5B()">Fight and be a Hero</button>
+    <a href="./5A.html" id="5A" class="hidden">Ending1</a>
+    <a href="./5B.html" id="5B" class="hidden">Ending2</a>
+    <a href="./5C.html" id="5C" class="hidden">Ending3</a>
+  </div>
+</body>
+
+</html>
